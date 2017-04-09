@@ -8,7 +8,7 @@ Write the main process with Dart (Electron example)
 Electronのメインプロセス側をDartで書く場合、JSとの相互運用を考える必要があります。<br>
 
 今回、メインプロセス側のDartコードのJSへのトランスパイルはDDC(Dart Dev Compiler)を使ってみます。<br>
-ｎｏｄｅjs向けのリーダブルなJSコードを吐いてくれます。
+nodejs向けのリーダブルなJSコードを吐いてくれます。
 
 ## Demo
 
@@ -67,7 +67,7 @@ Serving electron_with_dart web on http://localhost:8080
 Build completed successfully
 ```
 
-次別ターミナルで、Electronアプリを「pubserve」指定で起動します。<br>
+次に別ターミナルで、Electronアプリを「pubserve」指定で起動します。<br>
 と、その前にmain.dartをDDCでJSにトランスパイルしておきます（main.dart.js等のファイルが生成されます）。
 
 ```bash
