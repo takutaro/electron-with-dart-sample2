@@ -1,0 +1,14 @@
+.buildlog
+.packages
+.project
+.pub/
+build/
+**/packages/
+web/node_modules
+
+*.dart.js
+*.part.js
+*.js.deps
+*.js.map
+*.info.json
+*.sum
